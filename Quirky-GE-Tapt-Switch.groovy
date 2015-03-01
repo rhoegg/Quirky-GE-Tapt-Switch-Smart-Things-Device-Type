@@ -1,7 +1,8 @@
 /**
   *  Custom Device type for Quirky GE Tapt
   *
-  *  Author Matt Frank using code from JohnR / John Rucker's Dual Relay Controller
+  *  Author Ryan Hoegg
+  *  Original Author Matt Frank using code from JohnR / John Rucker's Dual Relay Controller
   *
   *  Date Created: 1/11/2015
   *  Last Modified: 1/11/2015
@@ -18,7 +19,7 @@
   */
 
  metadata {
-   definition (name: "Quirky GE Tapt Switch", namespace: "mattjfrank", author: "Matt Frank") {
+   definition (name: "Quirky GE Tapt Switch", namespace: "rhoegg", author: "Ryan Hoegg") {
          capability "Refresh"
          capability "Polling"
          capability "Sensor"
